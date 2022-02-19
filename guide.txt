@@ -1,0 +1,41 @@
+
+C:\Users\japag>cd desktop/estruturadedados
+
+C:\Users\japag\Desktop\EstruturaDeDados>git init
+Reinitialized existing Git repository in C:/Users/japag/Desktop/EstruturaDeDados/.git/
+
+C:\Users\japag\Desktop\EstruturaDeDados>git add .
+
+C:\Users\japag\Desktop\EstruturaDeDados>git commit "Primeiro commit"
+error: pathspec 'Primeiro commit' did not match any file(s) known to git
+
+C:\Users\japag\Desktop\EstruturaDeDados>git commit -m "Primeiro commit"
+[main (root-commit) 1a446e4] Primeiro commit
+ 2 files changed, 6 insertions(+)
+ create mode 100644 hello.c
+ create mode 100644 hello.exe
+
+C:\Users\japag\Desktop\EstruturaDeDados>git push origin main --force
+
+C:\Users\japag\Desktop\EstruturaDeDados>git add .
+
+C:\Users\japag\Desktop\EstruturaDeDados>git commit -m "Teste 2"
+[main 7e4d7ec] Teste 2
+ 2 files changed, 7 insertions(+)
+ create mode 100644 teste02.c
+ create mode 100644 teste02.exe
+
+C:\Users\japag\Desktop\EstruturaDeDados>git origin main
+git: 'origin' is not a git command. See 'git --help'.
+
+C:\Users\japag\Desktop\EstruturaDeDados>git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 41.42 KiB | 2.96 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/JohKemPo/ProgramacaoEstruturada.git
+   1a446e4..7e4d7ec  main -> main
+
+C:\Users\japag\Desktop\EstruturaDeDados>
