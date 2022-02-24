@@ -1,11 +1,20 @@
 #include <stdio.h>
 
 int main(){
-	int var1;
+	int idade;
 	
-	scanf("%d", &var1);
-	printf("O numero digitado e: %d", var1);//conteudo
-	printf("\nO numero digitado e: %d", &var1);//endereço
+	printf("Qual sua idade? ");
+	scanf("%d", &idade);
+	
+	if(idade > 18){
+		printf("Você é maior de idade.\n");
+	}else if( idade > 18 && idade < 61){
+		printf("Você é adulto. \n");
+	}else{
+		printf("Você é idoso.\n");
+	}
+	
+	printf("A idade é %d", idade );
 	
 	return 0;
 }
